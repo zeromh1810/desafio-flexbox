@@ -1,0 +1,36 @@
+img {
+    max-width: 100%;
+    width:100%
+}
+
+.gallery-container {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-between;
+    justify-content: center;
+    border:1px solid gray;
+}
+
+.gallery1, .gallery3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin:1rem 0;
+    box-sizing: border-box;
+}
+
+.image {
+    flex-basis:23%;
+}
+
+.gallery2 {
+    min-height: 200px;
+    width: 100%;
+    background-image: url("https://dummyimage.com/1200x1200/825a82/ffffff");
+    background-position: center center;
+    background-size: cover;
+
+}

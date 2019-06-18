@@ -1,0 +1,27 @@
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding:1rem 3rem;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border:1px solid gray;
+
+}
+
+.navbar-container__avatar {
+    max-width: 50px;
+}
+
+.navbar-container__menu ul li {
+    display: inline-block;
+    padding:0 2rem;
+}

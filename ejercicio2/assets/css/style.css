@@ -1,0 +1,35 @@
+.search-bar-container {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.search-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    width: 100%;
+    border:1px solid gray;
+    box-sizing: border-box;
+
+}
+
+.search-bar__input {
+    background-color: white;
+    flex-basis:80%;
+    
+}
+
+.search-bar__button {
+    flex-grow: 1;
+    background-color: aquamarine;
+    padding:2rem 0;
+    color: white;
+    text-align: center;
+    border:1px solid gray;
+    box-sizing: border-box;
+}

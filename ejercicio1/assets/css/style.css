@@ -1,0 +1,18 @@
+.button-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    width: 100%;
+    min-height: 80vh;
+    border:1px solid gray;
+
+}
+
+.button {
+    border:none;
+    padding:1rem 2rem;
+    background-color: aquamarine;
+    color:white;
+}
